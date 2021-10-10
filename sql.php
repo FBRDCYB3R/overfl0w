@@ -9,7 +9,7 @@
 
     try
     {
-        $conn = new PDO("pgsql:host=ec2-18-215-44-132.compute-1.amazonaws.com:5432;dbname=dfi1ekl7pe7hfn", 'rjsmgkwowkvldr', '9c4a10e89783466af42e3efa46540bf7680bc27ec270b65773e174690dbc60ac');
+        $conn = new PDO("pgsql:host=ec2-18-215-44-132.compute-1.amazonaws.com;dbname=dfi1ekl7pe7hfn", 'rjsmgkwowkvldr', '9c4a10e89783466af42e3efa46540bf7680bc27ec270b65773e174690dbc60ac');
 
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
