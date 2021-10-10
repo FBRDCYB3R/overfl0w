@@ -26,7 +26,7 @@
                 </ul>
             </nav>
             <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
-            <div class="brand">My Forum</div>
+            <div class="brand">Overflow</div>
         </div>
         <!--SearchBox Section-->
         <div class="search-box">
