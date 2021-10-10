@@ -1,6 +1,18 @@
-<html>
+<html style='background-color:#202020'>
     <style>
+        input.title {
+            position: absolute;
+            top: 5%;
+            width: 75%;
+        }
         
+        input.description {
+        
+        }
+        
+        textarea.post {
+        
+        }
     </style>
     <body>
         <center>
