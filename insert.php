@@ -1,4 +1,5 @@
 <?php
+    $id = random_int(0, 6969420);
     $msg = 'sample post lol haha';
     $host = 'ec2-18-215-44-132.compute-1.amazonaws.com';
     $username = 'rjsmgkwowkvldr';
@@ -14,7 +15,7 @@
         $statement = $conn->prepare("INSERT INTO posts(post, id) VALUES(:msg, :id)");
         $statement->execute(array(
             'msg' => $msg,
-            'id' => 69
+            'id' => $id
         ));
     }
     catch (PDOException $error)
