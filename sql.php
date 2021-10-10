@@ -18,7 +18,7 @@
 
         foreach ($data as $row)
         {
-            echo $row['post'].'<br>';
+            echo '('.$row['id'].') '.$row['post'].'<br>';
         }
     }
     catch (PDOException $error)
