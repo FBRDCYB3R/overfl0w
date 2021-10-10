@@ -28,6 +28,6 @@
     catch (PDOException $error)
     {
         $error->getMessage();
-        die();
+        die('errored');
     }
 ?>
