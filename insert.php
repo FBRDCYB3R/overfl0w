@@ -11,9 +11,10 @@
 
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $statement = $conn->prepare("INSERT INTO posts(post) VALUES(:msg)");
+        $statement = $conn->prepare("INSERT INTO posts(post, id) VALUES(:msg, :id)");
         $statement->execute(array(
-            'msg' => $msg
+            'msg' => $msg,
+            'id' => 69
         ));
     }
     catch (PDOException $error)
