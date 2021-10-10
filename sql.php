@@ -20,7 +20,9 @@
         {
             echo $row['post'].'<br>';
         }*/
-        echo "YES";
+        if ($conn) {
+            echo "YES";
+        }
 
     }
     catch (PDOException $error)
