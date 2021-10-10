@@ -241,7 +241,7 @@
     </div>
 
     <footer>
-        <span>&copy;  Selmi Abderrahim | All Rights Reserved</span>
+        <span>&copy;soup</span>
     </footer>
     <script src="main.js"></script>
 </body>
