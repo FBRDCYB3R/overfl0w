@@ -10,13 +10,14 @@
 
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $query = "SELECT * FROM posts ORDER BY id DESC";
+        /*$query = "SELECT * FROM posts ORDER BY id DESC";
         $data = $conn->query($query);
 
         foreach ($data as $row)
         {
             echo $row['post'].'<br>';
-        }
+        }*/
+        echo "<div style='background-color:#bdb76b; height:500px; width:700px;'>BRUH</div>";
 
     }
     catch (PDOException $error)
