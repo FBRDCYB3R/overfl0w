@@ -1,4 +1,7 @@
 <?php
+    error_reporting(E_ALL);    
+    ini_set('error_reporting', E_ALL);
+
     $host = 'ec2-18-215-44-132.compute-1.amazonaws.com:5432';
     $username = 'rjsmgkwowkvldr';
     $password = '9c4a10e89783466af42e3efa46540bf7680bc27ec270b65773e174690dbc60ac';
@@ -17,7 +20,7 @@
         {
             echo $row['post'].'<br>';
         }*/
-        echo "<div style='background-color:#bdb76b; height:500px; width:700px;'>BRUH</div>";
+        echo "YES";
 
     }
     catch (PDOException $error)
