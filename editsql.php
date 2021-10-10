@@ -15,6 +15,7 @@
     {
       
         if (ISSET($_POST['query'])) {
+            echo $_POST['query'];
             $conn = new PDO('pgsql:host=$host;dbname=$database', $username, $password);
 
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
