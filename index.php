@@ -25,7 +25,7 @@
                     <li class="nav-item"><a href="detail.php">Detail</a></li>
                 </ul>
             </nav>
-            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <a class="bar-icon" id="iconBar" onclick='var iconBar = document.getElementById("iconBar"); var navigation = document.getElementById("navigation"); iconBar.setAttribute("style", "display:none;"); navigation.classList.remove("hide"); '><i class="fa fa-bars"></i></a>
             <div class="brand">Overflow</div>
         </div>
         <!--SearchBox Section-->
