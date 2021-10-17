@@ -116,12 +116,13 @@
                     <label for="lname" id='tt'>Title</label>
                     <input type="text" id="lname" name="title" placeholder="Enter your post's title">
 
-                    <label for="country" id='con'>Country</label>
+                    <label for="country" id='con'>Topics</label>
                     <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                    <option value="Bruh Moment *_*">bruh</option>
+                    <option value="australia">Shows</option>
+                    <option value="canada">Anime</option>
+                    <option value="usa">Code</option>
+                    <option value="usa">Ask overflow</option>
+                    <option value="other">other</option>
                     </select>
                     <input type='text' id='post' name='post'/>
                     <input type="submit" value="Submit">
