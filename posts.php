@@ -118,10 +118,10 @@
 
                     <label for="country" id='con'>Topics</label>
                     <select id="country" name="country">
-                    <option value="australia">Shows</option>
-                    <option value="canada">Anime</option>
-                    <option value="usa">Code</option>
-                    <option value="usa">Ask overflow</option>
+                    <option value="Shows">Shows</option>
+                    <option value="Anime">Anime</option>
+                    <option value="Code">Code</option>
+                    <option value="Ask overflow">Ask overflow</option>
                     <option value="other">other</option>
                     </select>
                     <input type='text' id='post' name='post'/>
