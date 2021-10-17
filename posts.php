@@ -75,7 +75,7 @@
         resize: none;
         }
         #by {
-            font: 14px 'Trebuchet MS', sans-serif;
+            font: 14px 'Ariel', ;
             color: silver;
         }
         #tt {
