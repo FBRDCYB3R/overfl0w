@@ -30,6 +30,8 @@ h1{
 .container{
     margin: 20px;
     padding: 20px;
+    background-image: linear-gradient(to bottom right, #182841, #450045);
+    border-radius: 0.69vmax;
 }
 
 .subforum{
