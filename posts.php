@@ -121,7 +121,7 @@
                     <option value="australia">Australia</option>
                     <option value="canada">Canada</option>
                     <option value="usa">USA</option>
-                    <option value="LMAO I know where u live">bruh</option>
+                    <option value="Bruh Moment *_*">bruh</option>
                     </select>
                     <input type='text' id='post' name='post'/>
                     <input type="submit" value="Submit">
