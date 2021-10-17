@@ -77,7 +77,7 @@
     </div> 
 
     <footer>
-        <span>&copy; FBRDCYB3R, zXCV Hax101</span>
+        <span>&copy; FBRDCYB3R (*^____^*), zXCV Hax101 (*^_^*)</span>
     </footer>
     <script type='text/javascript' src='main.js'></script>
 </body>
