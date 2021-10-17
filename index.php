@@ -25,7 +25,7 @@
                     <li class="nav-item"><a href="detail.php">Detail</a></li>
                 </ul>
             </nav>
-            <a class="bar-icon" id="iconBar" onclick='var iconBar = document.getElementById("iconBar"); var navigation = document.getElementById("navigation"); iconBar.setAttribute("style", "display:none;"); navigation.classList.remove("hide"); '><i class="fa fa-bars"></i></a>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
             <div class="brand">Overflow</div>
         </div>
         <!--SearchBox Section-->
@@ -46,6 +46,7 @@
             <div class="subforum-title">
                 <h1>Chat forum - 500 characters maximum!</h1>
             </div>
+            <br><br><br>
         </div>
         <?php
             $host = 'ec2-18-215-44-132.compute-1.amazonaws.com';
@@ -61,11 +62,13 @@
         
                 $query = "SELECT * FROM posts ORDER BY id DESC";
                 $data = $conn->query($query);
-        
-                foreach ($data as $row)
-                {
-                    $row['post'].'<br><br><br>';
-                }
+                
+                if ($data) {
+                    foreach ($data as $row)
+                    {
+                        echo $row['post'].'<br><br><br>';
+                    }
+                } else { echo 'Nope.'; }
             }
             catch (PDOException $error)
             {
@@ -78,5 +81,6 @@
     <footer>
         <span>&copy; FBRDCYB3R, zXCV Hax101</span>
     </footer>
+    <script type='text/javascript' src='main.js'></script>
 </body>
 </html>
