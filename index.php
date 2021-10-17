@@ -30,9 +30,9 @@
         <div class="search-box">
             <div>
                 <select name="" id="">
-                    <option value="Everything">Everything</option>
-                    <option value="Titles">Titles</option>
-                    <option value="Descriptions">Descriptions</option>
+                   
+                    <option value="Titles">Users</option>
+                    
                 </select>
                 <input type="text" name="q" placeholder="search ...">
                 <button><i class="fa fa-search"></i></button>
@@ -42,7 +42,7 @@
     <div class="container">
         <div class="subforum">
             <div class="subforum-title">
-                <h1>Chat forum - 500 characters maximum!</h1>
+                <h1>Chat forum - 500 characters maximum!, Think before u post... keep the fourm SFW</h1>
             </div>
             <br><br><br>
         </div>
