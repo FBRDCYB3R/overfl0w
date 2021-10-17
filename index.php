@@ -20,9 +20,7 @@
             <nav class="navigation hide" id="navigation">
                 <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="forums.php">Forums</a></li>
                     <li class="nav-item"><a href="posts.php">Posts</a></li>
-                    <li class="nav-item"><a href="detail.php">Detail</a></li>
                 </ul>
             </nav>
             <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
