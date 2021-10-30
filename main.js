@@ -24,12 +24,3 @@ function showReply(){
     var replyArea = document.getElementById("reply-area");
     replyArea.classList.remove("hide");
 }
-
-//Maximize/Minimize
-function maximize() {
-    return "<?php if (isset($row)) { echo $row['post']; } ?>";
-}
-
-function minimize() {
-    return "<?php if (isset($row)) { echo $row['postmin']; } ?>";
-}
