@@ -15,7 +15,7 @@
             var min = document.getElementsByClassName("postmin");
             var imin;
             for (imin = 0; imin < min.length; imin++) {
-                min[i].style.display = "";
+                min[imin].style.display = "";
             }
         
             var max = document.getElementsByClassName("post");
@@ -35,11 +35,13 @@
             var min = document.getElementsByClassName("postmin");
             var imin;
             for (imin = 0; imin < min.length; imin++) {
-                min[i].style.display = "none";
+                min[imin].style.display = "none";
             }
         }
         
-        window.onload = min;
+        window.onload = function() {
+            min();
+        }
     </script>
 </head>
 
