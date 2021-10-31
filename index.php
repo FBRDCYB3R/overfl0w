@@ -11,8 +11,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
     <script type='text/javascript'>
-        document.getElementById('postmin').style.display = "";
-        document.getElementById('post').style.display = "none";
+        window.onload = function() {
+            document.getElementById('postmin').style.display = "";
+            document.getElementById('post').style.display = "none";   
+        }
     </script>
 </head>
 
