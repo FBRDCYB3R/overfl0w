@@ -11,7 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
     <script type='text/javascript'>
-        document.getElementById('postmin').style.visibility = "";
+        document.getElementById('postmin').style.display = "";
+        document.getElementById('post').style.display = "none";
     </script>
 </head>
 
@@ -44,7 +45,9 @@
     <div class="container">
         <div class="subforum">
             <div class="subforum-title">
-                <h1>Chat forum - 500 characters maximum!, Think before u post... keep the fourm SFW</h1>
+                <h1>Chat forum - 500 characters maximum!, Think before u post... keep the fourm SFW</h1><br><br>
+                <button id='max' style='display:none' onclick='max(); this.style.display = "none"; document.getElementById("min").style.display = "";'>Expand</button>
+                <button id='min' style='display:none' onclick='min(); this.style.display = "none"; document.getElementById("max").style.display = "";'>Expand</button>
             </div>
             <br><br><br>
         </div>
