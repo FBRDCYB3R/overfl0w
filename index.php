@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
     <script type='text/javascript'>
         document.getElementById('postmin').style.display = "";
+        document.getElementById('post').style.display = "none";
     </script>
 </head>
 
@@ -45,8 +46,8 @@
         <div class="subforum">
             <div class="subforum-title">
                 <h1>Chat forum - 500 characters maximum!, Think before u post... keep the fourm SFW</h1><br><br>
-                <button id='max' onclick='max(); document.getElementById("min").style.display = "";'>Expand</button>
-                <button id='min' onclick='min(); document.getElementById("max").style.display = "";'>Minimize</button>
+                <button id='max' onclick='document.getElementById("post").style.display = ""; document.getElementById("postmin").style.display = "none";'>Expand</button>
+                <button id='min' onclick='document.getElementById("post").style.display = "none"; document.getElementById("postmin").style.display = "";'>Minimize</button>
             </div>
             <br><br><br>
         </div>
