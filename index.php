@@ -71,8 +71,8 @@
                 if ($data) {
                     foreach ($data as $row)
                     {
-                        echo $row['postmin'].'<br><br><br>';
-                        echo $row['post'].'<br><br><br>';
+                        echo $row['postmin'].'<br><br>';
+                        echo $row['post'].'<br><br>';
                     }
                 } else { echo 'Nope.'; }
             }
