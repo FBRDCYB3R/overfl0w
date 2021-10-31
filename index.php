@@ -11,10 +11,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
     <script type='text/javascript'>
-        window.onload = function() {
-            document.getElementById('postmin').style.display = "";
-            document.getElementById('post').style.display = "none";   
+        function min() {
+            var min = document.getElementsByClassName("postmin");
+            var imin;
+            for (imin = 0; imin < min.length; imin++) {
+                min[i].style.display = "";
+            }
+        
+            var max = document.getElementsByClassName("post");
+            var imax;
+            for (imax = 0; imax < max.length; imax++) {
+                max[imax].style.display = "none";
+            }
         }
+        
+        function max() {
+            var max = document.getElementsByClassName("post");
+            var imax;
+            for (imax = 0; imax < max.length; imax++) {
+                max[imax].style.display = "";
+            }
+            
+            var min = document.getElementsByClassName("postmin");
+            var imin;
+            for (imin = 0; imin < min.length; imin++) {
+                min[i].style.display = "none";
+            }
+        }
+        
+        window.onload = min;
     </script>
 </head>
 
