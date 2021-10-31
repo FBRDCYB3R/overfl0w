@@ -1,4 +1,3 @@
-<!--called detail.html-->
 <?php
   session_start();
 ?>
@@ -11,6 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+    <script type='text/javascript'>
+        document.getElementById('postmin').style.visibility = "";
+    </script>
 </head>
 
 <body>
