@@ -45,8 +45,8 @@
         <div class="subforum">
             <div class="subforum-title">
                 <h1>Chat forum - 500 characters maximum!, Think before u post... keep the fourm SFW</h1><br><br>
-                <button id='max' onclick='max(); this.style.display = "none"; document.getElementById("min").style.display = "";'>Expand</button>
-                <button id='min' onclick='min(); this.style.display = "none"; document.getElementById("max").style.display = "";'>Expand</button>
+                <button id='max' onclick='max(); document.getElementById("min").style.display = "";'>Expand</button>
+                <button id='min' onclick='min(); document.getElementById("max").style.display = "";'>Minimize</button>
             </div>
             <br><br><br>
         </div>
