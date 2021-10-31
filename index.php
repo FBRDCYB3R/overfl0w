@@ -12,9 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
     <script type='text/javascript'>
         document.getElementById('postmin').style.display = "";
-        document.getElementById('post').style.display = "none";
+//        document.getElementById('post').style.display = "none";
         document.getElementById('max').style.display = "";
-        document.getElementById('min').style.display = "none";
+//        document.getElementById('min').style.display = "none";
     </script>
 </head>
 
