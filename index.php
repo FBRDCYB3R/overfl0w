@@ -40,7 +40,17 @@
         }
         
         window.onload = function() {
-            min();
+            var min = document.getElementsByClassName("postmin");
+            var imin;
+            for (imin = 0; imin < min.length; imin++) {
+                min[imin].style.display = "";
+            }
+        
+            var max = document.getElementsByClassName("post");
+            var imax;
+            for (imax = 0; imax < max.length; imax++) {
+                max[imax].style.display = "none";
+            }
         }
     </script>
 </head>
