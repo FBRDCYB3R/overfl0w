@@ -13,6 +13,8 @@
     <script type='text/javascript'>
         document.getElementById('postmin').style.display = "";
         document.getElementById('post').style.display = "none";
+        document.getElementById('max').style.display = "";
+        document.getElementById('min').style.display = "none";
     </script>
 </head>
 
