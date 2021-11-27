@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+    <script src="https://cdn.gravitec.net/storage/1316e80973603a0e8f3bc5b8dd821ca2/client.js" async></script>
     <script type='text/javascript'>
         function min() {
             var min = document.getElementsByClassName("postmin");
